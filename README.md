@@ -1,2 +1,2 @@
 # portfolio
-💻an insight of my work so far!
+💻 An insight of my work so far!
