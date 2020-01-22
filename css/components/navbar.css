@@ -1,0 +1,42 @@
+.sticky-top {
+  background-color: #FF6F61!important;
+/*  color: white;*/
+}
+
+.navbar-nav {
+  display: flex!important;
+  flex-direction: row;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+.dropdown-menu {
+  background-color: #FF6F61!important;
+  color: white!important;
+  border: none!important;
+}
+
+.dropdown-item {
+  color: white!important;
+  padding: 4px 8px!important;
+}
+
+.dropdown-item:hover {
+  color: white!important;
+  background-color: #FF6F61!important;
+  padding: 4px 8px!important;
+}
+
+.nav-link:hover {
+  color: white!important;
+}
+
+.contact-icons {
+  font-size: 20px;
+}
+
+i {
+  margin: 0 10px;
+}

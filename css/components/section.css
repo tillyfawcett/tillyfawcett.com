@@ -1,0 +1,67 @@
+.section {
+  background-color: #FF6F61;
+  height: 100vh;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-weight: 500;
+}
+
+.about-section {
+  padding: 10%;
+}
+
+.react {
+  margin-top: 10px;
+}
+
+p {
+  letter-spacing: 1px;
+}
+
+a {
+  letter-spacing: 2px;
+  color: white;
+  text-decoration: none!important;
+}
+
+a:hover {
+  font-weight: 800;
+  text-decoration: none!important;
+  color: white;
+}
+
+.project-images {
+  position: relative;
+  border-radius: 5px;
+  margin: 3%;
+  color: grey;
+  box-shadow: 0px 0px 10px #CDCDCD;
+  margin: 20px;
+}
+
+.project-images img {
+  height: 200px;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.title {
+  color: white;
+  padding: 10% 0 0 10%;
+}
+
+.projects {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  pointer-events: none;
+}
+
+.my-work {
+  padding: 10%;
+}
