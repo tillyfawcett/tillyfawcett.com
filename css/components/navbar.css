@@ -8,6 +8,15 @@
   flex-direction: row;
 }
 
+.fa-bars {
+  color: white!important;
+}
+
+.collapsed {
+  text-decoration: none!important;
+  border: none!important;
+}
+
 .nav-item {
   margin: 0 20px;
 }
