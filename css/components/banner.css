@@ -3,7 +3,12 @@ body {
   margin: 0;
 }
 
-.header {
+.body::-webkit-scrollbar {
+  display: none;
+}
+
+
+.banner {
   background-color: #FF6F61;
   height: 100vh;
   width:100%;
@@ -11,15 +16,18 @@ body {
   flex-direction: column;
   justify-content: center;
   color: white;
-  font-weight: 500;
+}
+
+.banner-contents {
+  padding: 10%;
 }
 
 h1 {
   letter-spacing: 2px;
 }
 
-.header-text {
-  padding: 10%;
+p {
+  letter-spacing: 2px;
 }
 
 .btn-primary {
@@ -34,30 +42,3 @@ h1 {
   color: #FF6F61;
   font-weight: 400;
 }
-
-@media (min-width: 992px) {
-    .project-images {
-     height: 200px;
-     width: 350px;
-  }
-}
-
-@media (min-width: 1150px) {
-  .project-images {
-    margin: 1.5%;
-  }
-
-  .project-images img {
-     height: 200px;
-  }
-
-}
-
-@media (min-width: 1500px) {
-  .project-images img {
-     height: 250px;
-  }
-
-}
-
-

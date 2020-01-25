@@ -12,9 +12,8 @@
   color: white!important;
 }
 
-.collapsed {
-  text-decoration: none!important;
-  border: none!important;
+.navbar-toggler {
+  padding: 4px 0;
 }
 
 .nav-item {

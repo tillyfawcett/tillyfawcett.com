@@ -1,0 +1,19 @@
+.section{
+  background-color: #FF6F61;
+  min-height:100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.section-titles {
+  padding: 10px;
+  color: #35605A;
+  letter-spacing: 1.5px;
+}
+
+
