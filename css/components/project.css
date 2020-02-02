@@ -26,8 +26,12 @@
   border-radius: 5px;*/
 }
 
-.slide {
-
+.project-examples-item-snow {
+  position: relative;
+  border-radius: 5px;
+  margin: 3%;
+  color: white;
+  box-shadow: 0px 0px 10px #A3473E;
 }
 
 .project-examples-item-mobile {
@@ -46,6 +50,12 @@
    box-shadow: 0px 0px 10px #A3473E;
 }
 
+.project-examples-item-snow .snow-img {
+  height: 46vw;
+  width: 65vw;
+  border-radius: 5px;
+}
+
 .project-examples-item-mobile .mobile-img {
    height: 60vw;
    border-radius: 5px;
@@ -61,6 +71,11 @@
 @media (min-width: 576px) {
   .project-examples {
     margin-top: 3%;
+  }
+  .project-examples-item-snow {
+    height: 22vw;
+    width: 34vw;
+    margin: 2%;
   }
   .project-examples-item-web {
     height: 19vw;
@@ -80,12 +95,21 @@
     height: 100%;
     width: 100%;
   }
+  .project-examples-item-snow .snow-img {
+    height: 100%;
+    width: 100%;
+  }
 }
 
 @media (min-width: 768px) {
   .project-examples {
     margin-top: 3%;
     justify-content: center;
+  }
+  .project-examples-item-snow {
+    height: 22vw;
+    width: 34vw;
+    margin: 2%;
   }
   .project-examples-item-web {
     height: 19vw;
@@ -105,11 +129,20 @@
     height: 100%;
     width: 100%;
   }
+  .project-examples-item-snow .snow-img {
+    height: 100%;
+    width: 100%;
+  }
 }
 
 @media (min-width: 992px) {
   .project-examples {
     margin-top: 3%;
+  }
+  .project-examples-item-snow {
+    height: 22vw;
+    width: 34vw;
+    margin: 2%;
   }
   .project-examples-item-web {
     height: 19vw;
@@ -129,6 +162,10 @@
     height: 100%;
     width: 100%;
   }
+  .project-examples-item-snow .snow-img {
+    height: 100%;
+    width: 100%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -136,6 +173,11 @@
     margin-top: 0%;
   }
   .mobile {
+  }
+  .project-examples-item-snow {
+    height: 22vw;
+    width: 34vw;
+    margin: 2%;
   }
   .project-examples-item-web {
     height: 13vw;
@@ -155,11 +197,20 @@
     height: 100%;
     width: 100%;
   }
+  .project-examples-item-snow .snow-img {
+    height: 100%;
+    width: 100%;
+  }
 }
 
 @media (min-width: 1500px) {
   .project {
-/*    opacity: 0;
+      margin-top: 0%;
+  }
+  .project-examples-item-snow {
+    height: 22vw;
+    width: 34vw;
+    margin: 1.5%;
   }
   .project-examples-item-web {
    height: 13vw;
@@ -180,5 +231,9 @@
   .project-examples-item-mobile .mobile-img {
    height: 100%;
    width: 100%;
+  }
+  .project-examples-item-snow .snow-img {
+    height: 100%;
+    width: 100%;
   }
 }
